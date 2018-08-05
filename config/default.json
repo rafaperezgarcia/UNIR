@@ -1,0 +1,13 @@
+{
+    "accessToken": "EAADOT5vJWZBgBAFAHZCszVL7x3fYPgZCUr2F1sT7VyhLZAT1JRlfCtnZAdIircP8DP15QVNiCowqqS9sEMMq7oSzYi65qlGzYouTIrqpapm7BarhxI7DZBdDccC8SCEmHq4x7l1Wi7hrCEbtpDpZBbgdOuTW5906LrtO1sJWSZBnggZDZD",
+    "verifyToken": "UNIR",
+    "appSecret": "7bfa2372feb8fb3d74a86c6af8dcae9c",
+    "saluda": ["hola", "buenas", "hi"],
+    "despedida": ["adios", "chao", "bye"],
+    "estudios": ["doctorado", "grado", "postgrado"],
+    "unir": ["unir", "universidad", "online"],
+    "ayuda":["ayuda", "no entiendo", "help"],
+    "presentacion": "Estás interesado en cursar estudios online, estás en el sitio adecuado",
+    "bienvenida":"Hola soy el chatbot de UNIR, la Universidad Online, en que te puedo ayudar?",
+    "agente":"Necesitas ayuda, rellena este formulario y un asesor se pondrá en contacto contigo para resolver tus dudas"
+}
