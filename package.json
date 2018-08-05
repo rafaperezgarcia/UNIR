@@ -1,0 +1,17 @@
+{
+  "name": "uniRbot",
+  "version": "1.0.0",
+  "description": "Chatbot que da información a estudiantes de UNIR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Perez Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bootbot": "^1.0.15",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6"
+  }
+}
