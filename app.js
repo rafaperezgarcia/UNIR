@@ -207,7 +207,7 @@ unirbot.hear(config.get('unir'), (payload, chat) => {
     });
 });
 
-//palabras clave MASTER, GRADO, POSTGRADO
+//palabras clave MASTER, GRADO, POSTGRADOOO
 // opciones con botones
 unirbot.hear(config.get('estudios'), (payload, chat) => {
     chat.say({
