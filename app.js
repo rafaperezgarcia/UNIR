@@ -5,7 +5,11 @@ const config = require('config');
 const entorno = require('./variables/entorno');
 
 
-const Usuario = require('./modelos/usuario');
+//const Usuario = require('./modelos/usuario');
+const baseConocimiento = require('./modelos/baseConocimiento');
+const estudiante = require('./modelos/estudiante');
+const fraseDirecta = require('./modelos/fraseDirecta');
+
 
 //crea la instancia de unirbot y la exporta para poder ser utilizada en otro módulo
 const unirbot = new BootBot({
@@ -61,7 +65,26 @@ unirbot.hear(config.get('despedida'), (payload, chat) => {
     chat.say(`Adios ${user.first_name}!`);
   });
 });
+/*
+// *** acceso a Base de Datos ***
+//*******************************
+unirbot.hear(['base'], (payload, chat) => {
+    // guardar en base de datos
+    let baseConocimiento = new baseConocimiento();
 
+    baseConocimiento.intencion = "unir",
+    baseConocimiento.frase = "Quieres saber que es UNIR",
+    baseConocimiento.recurso = "https://www.youtube.com/watch?v=JNvVyW-xpTM&list=PLFCF11210161ABC79"
+
+    baseConocimiento.save((err, intencion) => {
+        if (err)
+          chat.say(`Error al guardar en Base de Datos ${err}`);
+        else
+          console.log(intencion);
+          chat.say(`Almacenado OK ${intencion}`);
+        });
+});
+*/
 /*
 // *** acceso a Base de Datos ***
 //*******************************

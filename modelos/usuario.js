@@ -1,7 +1,7 @@
 'use strict';
 
 const mongoose = require ('mongoose');
-const bcrupt = require ('bcrypt-nodejs'); //pora encriptar claves
+//const bcrupt = require ('bcrypt-nodejs'); //pora encriptar claves
 
 const Schema = mongoose.Schema;
 

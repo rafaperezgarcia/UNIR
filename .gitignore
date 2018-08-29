@@ -1,4 +1,4 @@
 node_modules
-default.json
-url.json
-entorno.js
+config
+json
+variables
